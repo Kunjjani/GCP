@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-image:url('https://images7.alphacoders.com/656/thumb-1920-656315.jpg');background-repeat:no-repeat;background-size:cover;">
+<h1 align="center">Affair Prediction based on <a href="https://www.kaggle.com/akashadesai/extramarital-affairs-dataset">this</a> :)</h1>
+<div class="form" align="center">
+    <form action="/predict" method="post">
+        <!-- >Rate you marriage in between 1-5 <input type="number" min="1" max="5" name="MR" id="MR" align="center"><br><br><!-->
+        Marrige rate(between 0-5) &nbsp;<input required type="number" min="0" max="5"  name="RM" id="RM" align="center">&nbsp;&nbsp;
+        Age &nbsp;<input required type="number" min="18" max="100" name="AGE" id="AGE" align="center">&nbsp;&nbsp;
+        Years Married &nbsp;<input required type="number" min="0" max="100" name="YM" id="YM" align="center">&nbsp;&nbsp;
+        Religious beleif (between 0-5) <input required type="number" min="0" max="5" name="REL" id="REL" align="center">&nbsp;&nbsp;
+        Husbands occupation (between 0-5) <input required type="number" min="0" max="5" name="OCC" id="OCC" align="center"><br><br>
+        <input type="submit" value="Predict affair">
+    </form>
+</div>
+</body>
+</html>
